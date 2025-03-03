@@ -10,11 +10,12 @@
             text-align: center;
             padding: 50px;
             position: relative;
-            overflow: hidden;
-            background-image: url('https://0x0.st/HwzA.jpeg'); /* Фон через 0x0 */
+            overflow-x: hidden;
+            background-image: url('https://0x0.st/s/Fnu94RnDp0HnFCbyjnbI0g/8MTM.jpg'); /* Фон через 0x0 */
             background-size: cover;
             background-position: center;
             color: #fff;
+            margin: 0;
         }
         h1 {
             font-size: 6em;
@@ -32,16 +33,34 @@
             font-style: italic;
             margin: 20px 0;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, rgba(255, 111, 97, 0.8), rgba(255, 182, 193, 0.8));
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .compliment:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
         }
         .scroll-container {
             height: 300px;
             overflow-y: auto;
             border: 2px solid rgba(255, 255, 255, 0.5);
-            border-radius: 10px;
+            border-radius: 15px;
             padding: 20px;
             margin: 0 auto;
             width: 80%;
             background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        .section {
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         }
         .balloon {
             position: absolute;
@@ -120,17 +139,36 @@
     <p>Дорогая Яна,</p>
     <p>Поздравляю тебя с твоим особенным днем! Пусть каждый твой день будет наполнен радостью, улыбками и теплом. Желаю тебе крепкого здоровья, счастья и успехов во всех начинаниях! 🎂🎈</p>
 
-    <div class="scroll-container">
-        <div class="compliment">Ты — лучик света в этом мире! 🌟</div>
-        <div class="compliment">Твоя улыбка делает мир ярче! 😊</div>
-        <div class="compliment">Ты умна, талантлива и невероятна! 💫</div>
-        <div class="compliment">С тобой всегда легко и приятно! 🌸</div>
-        <div class="compliment">Ты — настоящая звезда! ⭐️</div>
-        <div class="compliment">Ты вдохновляешь всех вокруг! ✨</div>
-        <div class="compliment">Твоя доброта не знает границ! 💖</div>
-        <div class="compliment">Ты — воплощение грации и ума! 🌹</div>
-        <div class="compliment">Ты делаешь этот мир лучше! 🌍</div>
-        <div class="compliment">Ты — просто чудо! 🌈</div>
+    <div class="section">
+        <h2>Комплименты для тебя:</h2>
+        <div class="scroll-container">
+            <div class="compliment">Ты — лучик света в этом мире! 🌟</div>
+            <div class="compliment">Твоя улыбка делает мир ярче! 😊</div>
+            <div class="compliment">Ты умна, талантлива и невероятна! 💫</div>
+            <div class="compliment">С тобой всегда легко и приятно! 🌸</div>
+            <div class="compliment">Ты — настоящая звезда! ⭐️</div>
+            <div class="compliment">Ты вдохновляешь всех вокруг! ✨</div>
+            <div class="compliment">Твоя доброта не знает границ! 💖</div>
+            <div class="compliment">Ты — воплощение грации и ума! 🌹</div>
+            <div class="compliment">Ты делаешь этот мир лучше! 🌍</div>
+            <div class="compliment">Ты — просто чудо! 🌈</div>
+            <div class="compliment">Ты — источник радости и тепла! ☀️</div>
+            <div class="compliment">Ты — неповторима и уникальна! 💎</div>
+            <div class="compliment">Ты — пример для подражания! 👑</div>
+            <div class="compliment">Ты — самая лучшая! 🏆</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Пожелания:</h2>
+        <p>Пусть твоя жизнь будет наполнена яркими моментами, как этот день! 🎉</p>
+        <p>Пусть все твои мечты сбываются, а цели достигаются легко! 🚀</p>
+        <p>Пусть каждый день приносит тебе новые возможности и счастье! 🌟</p>
+    </div>
+
+    <div class="section">
+        <h2>Ты — чудо!</h2>
+        <p>Спасибо, что ты есть! Ты делаешь мир лучше просто своим присутствием. 💖</p>
     </div>
 </body>
 </html>
